@@ -1,0 +1,25 @@
+INSERT INTO books (book_id, isbn, title, no_of_copies, shelf_no, availability, price, publish_year, publication, edition)
+VALUES
+    ('B01', 9780544003415, 'The Lord of the Rings', 3, 102, true, 24.99, 1954, 'Allen & Unwin', '1st'),
+    ('B02', 9780131103627, 'Mechanics: Dynamics', 7, 201, true, 45.99, 2006, 'Pearson','1st'),
+    ('B03', 9781451192759, 'Internal Medicine', 4, 204, true, 99.99, 2014, 'McGraw Hill','1st'),
+    ('B04', 9781119212049, 'Fundamentals of ComSci', 6, 205, true, 79.99, 2015, 'Wiley','2nd'),
+    ('B05', 9780131873254, 'Intro to VLSI Circuits', 2, 206, true, 65.99, 2001, 'Pearson','3rd');
+    
+INSERT INTO author (book_id, author)
+VALUES
+    ('B01', 'J.R.R. Tolkien'),
+    ('B02', 'R.C. Hibbeler'),
+    ('B03', 'Dennis L. Kasper'),
+    ('B04', 'Behrouz A. Forouzan'),
+    ('B05', 'John P. Uyemura');
+
+-- Insert values into the genre table
+INSERT INTO genre (book_id, genre)
+VALUES
+    ('B01', 'communication'),
+    ('B02', 'engineering'),
+    ('B03', 'medicine'),
+    ('B04', 'communication'),
+    ('B05', 'engineering');
+    
