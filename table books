@@ -24,38 +24,38 @@ VALUES
     ('B05', 'engineering');
     
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('001', 'John Doe', 'California', 'Los Angeles', '90001', 'john@example.com', 'MIT');
+VALUES ('S01', 'John Doe', 'California', 'Los Angeles', '90001', 'john@example.com', 'MIT');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('002', 'Alice Smith', 'New York', 'New York City', '10001', 'alice@example.com', 'KMC');
+VALUES ('S02', 'Alice Smith', 'New York', 'New York City', '10001', 'alice@example.com', 'KMC');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('003', 'Michael Johnson', 'Texas', 'Houston', '77001', 'michael@example.com', 'MCHP');
+VALUES ('S03', 'Michael Johnson', 'Texas', 'Houston', '77001', 'michael@example.com', 'MCHP');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('004', 'Emily Brown', 'Florida', 'Miami', '33101', 'emily@example.com', 'MSAP');
+VALUES ('S04', 'Emily Brown', 'Florida', 'Miami', '33101', 'emily@example.com', 'MSAP');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('005', 'David Wilson', 'Massachusetts', 'Boston', '02101', 'david@example.com', 'DOC');
+VALUES ('S05', 'David Wilson', 'Massachusetts', 'Boston', '02101', 'david@example.com', 'DOC');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('006', 'Sarah Johnson', 'California', 'San Francisco', '94101', 'sarah@example.com', 'MIC');
+VALUES ('S06', 'Sarah Johnson', 'California', 'San Francisco', '94101', 'sarah@example.com', 'MIC');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
-VALUES ('007', 'James Miller', 'Washington', 'Seattle', '98101', 'james@example.com', 'WGSHA');
+VALUES ('S07', 'James Miller', 'Washington', 'Seattle', '98101', 'james@example.com', 'WGSHA');
 
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
-VALUES ('001', '+91-1234567890');
+VALUES ('S01', '+91-1234567890');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
-VALUES ('002', '+91-2345678901');
+VALUES ('S02', '+91-2345678901');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
-VALUES ('003', '+91-3456789012');
+VALUES ('S03', '+91-3456789012');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
-VALUES ('004', '+91-4567890123');
+VALUES ('S04', '+91-4567890123');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
-VALUES ('005', '+91-5678901234');
+VALUES ('S05', '+91-5678901234');
 
 INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
-VALUES ('001', 'John Smith', 'Administrator');
+VALUES ('E01', 'John Smith', 'Administrator');
 INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
-VALUES ('002', 'Alice Johnson', 'Assistant');
+VALUES ('E02', 'Alice Johnson', 'Assistant');
 INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
-VALUES ('003', 'Michael Brown', 'Director');
+VALUES ('E03', 'Michael Brown', 'Director');
 INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
-VALUES ('004', 'Emily Davis', 'Assistant');
+VALUES ('E04', 'Emily Davis', 'Assistant');
 INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
-VALUES ('005', 'David Wilson', 'Administrator');
+VALUES ('E05', 'David Wilson', 'Administrator');
