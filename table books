@@ -23,3 +23,17 @@ VALUES
     ('B04', 'communication'),
     ('B05', 'engineering');
     
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('001', 'John Doe', 'California', 'Los Angeles', '90001', 'john@example.com', 'MIT');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('002', 'Alice Smith', 'New York', 'New York City', '10001', 'alice@example.com', 'KMC');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('003', 'Michael Johnson', 'Texas', 'Houston', '77001', 'michael@example.com', 'MCHP');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('004', 'Emily Brown', 'Florida', 'Miami', '33101', 'emily@example.com', 'MSAP');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('005', 'David Wilson', 'Massachusetts', 'Boston', '02101', 'david@example.com', 'DOC');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('006', 'Sarah Johnson', 'California', 'San Francisco', '94101', 'sarah@example.com', 'MIC');
+INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
+VALUES ('007', 'James Miller', 'Washington', 'Seattle', '98101', 'james@example.com', 'WGSHA');
