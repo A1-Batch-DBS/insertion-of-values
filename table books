@@ -37,3 +37,25 @@ INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, Colle
 VALUES ('006', 'Sarah Johnson', 'California', 'San Francisco', '94101', 'sarah@example.com', 'MIC');
 INSERT INTO student (StudentId, Student_Name, State, City, ZipCode, Email, College)
 VALUES ('007', 'James Miller', 'Washington', 'Seattle', '98101', 'james@example.com', 'WGSHA');
+
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('001', '+91-1234567890');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('002', '+91-2345678901');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('003', '+91-3456789012');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('004', '+91-4567890123');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('005', '+91-5678901234');
+
+INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
+VALUES ('001', 'John Smith', 'Administrator');
+INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
+VALUES ('002', 'Alice Johnson', 'Assistant');
+INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
+VALUES ('003', 'Michael Brown', 'Director');
+INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
+VALUES ('004', 'Emily Davis', 'Assistant');
+INSERT INTO Employee (Emp_Id, Emp_Name, Designation)
+VALUES ('005', 'David Wilson', 'Administrator');
