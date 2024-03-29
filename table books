@@ -10,8 +10,10 @@ INSERT INTO author (book_id, author)
 VALUES
     ('B01', 'J.R.R. Tolkien'),
     ('B02', 'R.C. Hibbeler'),
+    ('B02', 'L.Kreig'),
     ('B03', 'Dennis L. Kasper'),
     ('B04', 'Behrouz A. Forouzan'),
+    ('B04', 'Andrew Colin')
     ('B05', 'John P. Uyemura');
 
 -- Insert values into the genre table
@@ -41,11 +43,15 @@ VALUES ('S07', 'James Miller', 'Washington', 'Seattle', '98101', 'james@example.
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
 VALUES ('S01', '+91-1234567890');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('S01', '+91-8957384239');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
 VALUES ('S02', '+91-2345678901');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
 VALUES ('S03', '+91-3456789012');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
 VALUES ('S04', '+91-4567890123');
+INSERT INTO PhoneNumber (StudentId, Phone_Number)
+VALUES ('S04', '+91-7896540923');
 INSERT INTO PhoneNumber (StudentId, Phone_Number)
 VALUES ('S05', '+91-5678901234');
 
